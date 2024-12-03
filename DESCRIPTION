@@ -1,0 +1,17 @@
+Package: ryx
+Type: Package
+Title: Summarizes and Plots Correlation values between a dependent variable y and one or more independent x variables
+Version: 0.1.0
+Author: Angelica Crown [aut, cre]
+Maintainer: Angelica Crown <acrown@wesleyan.edu>
+Description: Calculates Correlations between a dependent variable y and one or more independent x variables with accompanying print, summary, and plot functions for class ryx.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
