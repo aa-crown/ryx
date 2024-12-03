@@ -8,6 +8,8 @@
 }
 \arguments{
 \item{results}{results from ryx()}
+
+\item{...}{not used}
 }
 \value{
 A string of summarized results from ryx, including variables used, median absolute correlation value and range, and how many significant variables were found in the analysis.

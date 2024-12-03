@@ -2,6 +2,7 @@
 #'@description Prints a summary of results from ryx function detailing the median absolute correlation value with ranges, as well as how many variables were significant at the p < 0.05 level.
 #'@export
 #'@param results results from ryx()
+#'@param ... not used
 #'@returns A string of summarized results from ryx, including variables used, median absolute correlation value and range, and how many significant variables were found in the analysis.
 #'@examples
 #'x <- ryx(mtcars, y="mpg", x=c("hp", "wt", "disp", "cyl", "am", "gear"))
